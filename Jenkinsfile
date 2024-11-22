@@ -29,7 +29,7 @@ pipeline
             steps
             {
                git 'https://github.com/sudarshansw7/myFunctionalTesting.git'
-               sh 'java -jar /home/ubuntu/.jenkins/workspace/without-plugin/testing.jar'
+               sh 'java -jar /var/lib/jenkins/workspace/withoutplugin/testing.jar'
             }
         }
        
